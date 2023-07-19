@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/SLIIT/Dependencies/jakarta.activation-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/SLIIT/Dependencies/jakarta.el-api-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/SLIIT/Dependencies/jakarta.servlet.jsp.jstl-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/SLIIT/Dependencies/jakarta.servlet.jsp.jstl-api-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/SLIIT/Dependencies/jakarta.servlet-api-5.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/SLIIT/Dependencies/jakarta.xml.bind-api-3.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/SLIIT/Dependencies/javax.servlet-3.1 (1).jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/SLIIT/Dependencies/jstl-api-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/SLIIT/Dependencies/mysql-connector-java-5.1.48.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/SLIIT/Dependencies/mysql-connector-java-5.1.48-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/SLIIT/Year 2/Semester 1 (2022)/Assignments/OOP/OOP final project stuffs/Jar files/jar_files/jakarta.activation-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/SLIIT/Year 2/Semester 1 (2022)/Assignments/OOP/OOP final project stuffs/Jar files/jar_files/jakarta.el-api-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/SLIIT/Year 2/Semester 1 (2022)/Assignments/OOP/OOP final project stuffs/Jar files/jar_files/jakarta.servlet.jsp.jstl-api-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/SLIIT/Year 2/Semester 1 (2022)/Assignments/OOP/OOP final project stuffs/Jar files/jar_files/jakarta.servlet-api-5.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/SLIIT/Year 2/Semester 1 (2022)/Assignments/OOP/OOP final project stuffs/Jar files/jar_files/jakarta.xml.bind-api-3.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/SLIIT/Year 2/Semester 1 (2022)/Assignments/OOP/OOP final project stuffs/Jar files/jar_files/mysql-connector-java-5.1.48.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/SLIIT/Year 2/Semester 1 (2022)/Assignments/OOP/OOP final project stuffs/Jar files/jar_files/mysql-connector-java-5.1.48-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Downloads/jar_files/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Downloads/jar_files/javax.mail-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/SLIIT/Dependencies/servlet-api (1).jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

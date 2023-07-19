@@ -1,0 +1,82 @@
+@charset "ISO-8859-1";
+/*body and background styles*/
+body{
+	background-color:#057D90;
+  /*background-image: url('../Images/station.jpg');*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: auto;
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+/*header menu bar styles*/
+.header{
+  float: left;
+  width:100%;
+  padding: 0px;
+  position: fixed;
+  top: 0px;
+  padding-top: 20px;
+}
+
+.header a{
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 12px 20px;
+}
+
+.header a:hover{
+  text-shadow: 0px 0px 10px #FFFFFF;
+}
+/*middle div bar styles*/
+.homediv{
+	z-index: -1;
+}
+.homediv{
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+/*unsuccess header div styles*/
+.not-insert-header{
+	text-align:center;
+	text-transform: uppercase;
+	font-size: 30px;
+    font-weight: 300;
+  	color:white;
+  	background-color:#9F9F9F;
+ 	 padding :10px;
+  	border-radius: 25px;
+  	border:none;
+}
+/*back button styles*/
+.notice-back-button{
+	background: #6B6A6A;
+	color: #fff;
+	cursor: pointer;
+	padding : 10px;
+	border:0;
+	margin-left:100px;
+	margin-top:50px;
+	border-radius: 50%;
+	margin-bottom:0px;
+	font-size:20px;
+	height:50px; 
+	width:50px;
+}
+.notice-back-button:hover{
+		background-color: #FFFFFF;
+  		color: #000000;
+  		mix-blend-mode: screen;
+}
+/*notice unsuccess warning text*/
+.warning_message{
+	 text-transform: capitalize;
+
+}

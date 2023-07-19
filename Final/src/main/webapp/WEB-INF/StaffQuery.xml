@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Querys>
+
+	<!-- Create table staff Query -->
+	<query id="create_staff_table">
+        <![CDATA[
+            CREATE TABLE Staff(
+				StaffID varchar(10) not null,
+				FirstName varchar(25),
+				LastName varchar(25),
+				NIC varchar(15),
+				Address varchar(500),
+				Email varchar(100),
+				AccNo  varchar(25),
+				Password varchar(15),
+				StaffType varchar(25),
+				ContractYears int,
+				BasicSalary double,
+				OTRate double,
+				
+				primary key (StaffID)
+			)
+        ]]>
+	</query>
+
+	<!-- DROP TABLE staff Query -->
+	<query id="drop_table">
+         <![CDATA[        
+            DROP TABLE IF EXISTS staff 
+        ]]>
+	</query>
+
+	<!-- Select all staffs Query -->
+	<query id="insert_staff">
+        <![CDATA[
+          	insert into staff (StaffID, FirstName, LastName, NIC, Address, Email, AccNo, Password, StaffType, ContractYears, BasicSalary, OTRate) 
+          	values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ]]>
+	</query>
+
+	<!-- Select a particular staff by id Query -->
+	<query id="staff_by_id">
+         <![CDATA[        
+            select * from staff where StaffID = ?
+        ]]>
+	</query>
+
+	<!-- Select all staffs -->
+	<query id="all_staffs">
+         <![CDATA[        
+            select * from staff
+        ]]>
+	</query>
+
+	<!-- Delete a particular staff by id Query -->
+	<query id="remove_staff">
+         <![CDATA[        
+            delete from staff where StaffID = ?
+        ]]>
+	</query>
+	
+	<!-- Update a particular staff by id Query -->
+	<query id="update_staff">
+         <![CDATA[        
+            update staff as s 
+            set s.FirstName = ?, s.LastName = ?, s.NIC = ?, s.Address = ?, s.Email = ?, s.AccNo = ?, s.Password = ?, s.StaffType = ?, s.ContractYears = ?, s.BasicSalary = ?, s.OTRate = ? 
+            where s.StaffID = ?
+        ]]>
+	</query>
+	
+		<!-- Get staff IDs Query -->
+	<query id="staff_ids">
+         <![CDATA[        
+            select s.StaffID from staff as s
+        ]]>
+	</query>
+
+</Querys>

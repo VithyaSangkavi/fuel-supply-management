@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+ version="4.0">
+         
+         <servlet>
+         	<servlet-name>login</servlet-name>
+         	<servlet-class>com.notice.SearchServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>login</servlet-name>
+         	<url-pattern>/search</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>allsearch</servlet-name>
+         	<servlet-class>com.notice.AllNoticesServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>allsearch</servlet-name>
+         	<url-pattern>/all</url-pattern>
+         </servlet-mapping>
+         
+        <servlet>
+        	<servlet-name>noticeinsert</servlet-name>
+        	<servlet-class>com.notice.NoticeInsertServlet</servlet-class>
+        </servlet>
+        <servlet-mapping>
+        <servlet-name>noticeinsert</servlet-name>
+        <url-pattern>/insert</url-pattern>
+       </servlet-mapping>
+        
+        <servlet>
+        	<servlet-name>noticeupdate</servlet-name>
+        	<servlet-class>com.notice.UpdateNoticeServlet</servlet-class>
+        </servlet>
+        <servlet-mapping>
+        	<servlet-name>noticeupdate</servlet-name>
+        	<url-pattern>/update</url-pattern>
+        </servlet-mapping>
+        
+        <servlet>
+        	<servlet-name>prioritynt</servlet-name>
+        	<servlet-class>com.notice.PriorityNoticesServlet</servlet-class>
+        </servlet>
+        <servlet-mapping>
+        	<servlet-name>prioritynt</servlet-name>
+        	<url-pattern>/show</url-pattern>
+        </servlet-mapping>
+        
+        <servlet>
+        	<servlet-name>noticereports</servlet-name>
+        	<servlet-class>com.notice.NoticeReportServlet</servlet-class>
+        </servlet>
+        <servlet-mapping>
+        	<servlet-name>noticereports</servlet-name>
+        	<url-pattern>/notrep</url-pattern>
+        </servlet-mapping>
+        <servlet>
+        	<servlet-name>noticeboard</servlet-name>
+        	<servlet-class>com.notice.NoticeBoardServlet</servlet-class>
+        </servlet>
+        <servlet-mapping>
+        	<servlet-name>noticeboard</servlet-name>
+        	<url-pattern>/notbrd</url-pattern>
+        </servlet-mapping>
+        <servlet>
+        	<servlet-name>srchforusers</servlet-name>
+        	<servlet-class>com.notice.FrontendSearchServlet</servlet-class>
+        </servlet>
+        <servlet-mapping>
+        	<servlet-name>srchforusers</servlet-name>
+        	<url-pattern>/srchuser</url-pattern>
+        </servlet-mapping>
+        </web-app>      
+        

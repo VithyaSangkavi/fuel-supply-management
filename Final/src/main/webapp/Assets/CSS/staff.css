@@ -1,0 +1,231 @@
+@charset "ISO-8859-1";
+
+body
+{
+  font-family: sans-serif;
+  font-size: 16px;
+
+}
+
+.homediv{
+  width: 400px;
+  margin: 150px auto;
+  padding: 40px 60px;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-color: #F5F5F5;
+}
+
+.staffreg
+{
+  width: 450px;
+  margin: 20px auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px 60px;
+  box-shadow: 0px 0px 10px #000000;
+  color: white
+}
+
+.staffreg td
+{
+  font-size: 16px;
+}
+
+.staffreg input[type=text], input[type=date], textarea, select
+{
+  height: 30px;
+  width: 290px;
+  background-color: #FFFFFF;
+  margin: 7px 0px 7px 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 2px #000000;
+  padding: 0px 10px;
+}
+
+.staffreg textarea
+{
+	height: 60px;
+	padding: 10px;
+}
+
+.staffreg input[type=submit], input[type=reset]
+{
+  height: 40px;
+  width : 150px;
+  margin: 20px 150px 0px;
+  border-radius: 20px;
+  border: none;
+  background-color: #284f9c;
+  color: #FFFFFF;
+  transition-duration: 300ms;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.staffreg input[type=submit]:hover, input[type=reset]:hover
+{
+  background-color: #00007b;
+}
+
+.list
+{
+	width: 100%;
+	color: white;
+}
+
+.list table
+{
+	border-collapse: collapse;
+	margin: 100px;
+	/*background-color: #FFFFFF;*/
+}
+
+.list table th
+{
+	background-color: #00008b;
+	color: white;
+}
+
+
+.list table tr:nth-child(even)
+{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.list table tr:nth-child(odd)
+{
+	background-color: rgba(0, 0, 139, 0.7);
+}
+
+.list table input[type=submit]
+{
+	height: 30px;
+  	width : 100px;
+  	border-radius: 20px;
+  	border: none;
+  	background-color: white;
+  	color: #00008B ;
+  	transition-duration: 300ms;
+  	font-size: 14px;
+}
+
+.list table input[type=submit]:hover
+{
+	background-color: #00008B;
+	color: white;
+}
+
+.list caption a
+{
+	float: right;
+	text-decoration: none;
+	margin-bottom: 20px;
+	margin-left : 20px;
+	padding: 10px 20px;
+	border-radius: 20px;
+	background-color: white;
+	color:#00008B;
+	transition-duration: 300ms;
+}
+
+.list caption a:hover
+{
+	background-color: #00008B;
+}
+
+#redbtn
+{
+	background-color:  #FF0000;
+	color: #FFFFFF;
+	transition-duration: 200ms;
+}
+
+#redbtn:hover
+{
+	background-color: #cc0000;
+	color: #FFFFFF;
+}
+
+#bluebtn
+{
+	background-color: transparent;
+	color: #FFFFFF;
+	border: solid 2px #FFFFFF;
+	transition-duration: 200ms;
+}
+
+#bluebtn:hover
+{
+	background-color: #FFFFFF;
+	color: #00008B;
+}
+
+.searchbar
+{
+	position: absolute; 
+	right: 100px;
+	top: 50px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+}
+
+.searchbar input[type=text]
+{
+	height: 30px;
+	width: 250px;
+	background-color: #FFFFFF;
+	border: none;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+
+.searchbar button[type=submit]
+{
+	height:36px;
+	width: 36px;
+	font-size: 18px;
+	background-color: #FFFFFF;
+	border: none;
+	border-radius: 5px;
+}
+
+.backbtn
+{
+	color: #FF0000;
+	text-decoration: none;
+	font-size: 20px;
+	position: absolute;
+	top: 100px;
+	left: 105px;
+	border: 2px solid #FF0000;
+	border-radius: 10px;
+	padding: 10px 15px;
+	transition-duration: 200ms;
+}
+
+.backbtn:hover
+{
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+
+.crossbtn
+{
+	color: #FF0000;
+	text-decoration: none;
+	font-size: 25px;
+	position: relative;
+	top: -10px;
+	left: 450px;
+	border: 2px solid #FF0000;
+	border-radius: 5px;
+	padding: 4px 7px;
+	transition-duration: 200ms;
+	
+}
+
+.crossbtn:hover
+{
+	background-color: #FF0000;
+	color: #FFFFFF;
+}

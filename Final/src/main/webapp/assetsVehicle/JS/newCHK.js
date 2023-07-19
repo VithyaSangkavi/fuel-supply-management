@@ -1,0 +1,8 @@
+/**
+ * 
+ */
+ 
+  function chkFuel(){
+	alert("hello")
+    
+}

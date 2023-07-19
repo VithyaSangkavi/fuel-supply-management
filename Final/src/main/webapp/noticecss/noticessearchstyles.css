@@ -1,0 +1,261 @@
+@charset "ISO-8859-1";
+/*body and background styles*/
+
+body{
+	background-color:#057D90;
+  /*background-image: url('../Images/station.jpg');*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: auto;
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 25px;
+}
+/*header menu bar styles*/
+.header{
+  float: left;
+  width:100%;
+  padding: 0px;
+  position: fixed;
+  top: 0px;
+  padding-top: 20px;
+}
+
+.header a{
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 12px 20px;
+}
+
+.header a:hover{
+  text-shadow: 0px 0px 10px #FFFFFF;
+}
+/*middle div bar styles*/
+div{
+	z-index: -1;
+}
+.homediv{
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+
+/*??*/
+
+.container{
+	max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+   background: #fff;
+}
+/*noticeboard table styles*/
+table{
+	 border-collapse: collapse;
+     padding: 25px 30px;
+     margin-bottom:0;
+     width: 75%;
+     margin-left:150px;
+     color:white;
+  	 background-color:rgba(192,192,192,0.8);
+}
+
+
+ td{
+ 	
+	 width: 22.575%;
+     padding: 2px;
+     word-break: break-all;
+    
+}
+/*search bar styles*/
+/*search bar form styles*/
+.not-search-table-header{
+	color: white;
+	text-align:center;
+	height:80px;
+	width:20%;
+	background-color: #00008b;
+    font-size:14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+   
+}
+table tr:nth-child(even)
+{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+table tr:nth-child(odd)
+{
+    background-color: rgba(0, 0, 139, 0.7);
+}
+/*search bar div tag styles*/
+
+/*search bar div tag styles*/
+.searchwrap{
+	
+	margin: 100px 500px 10px 500px;
+	justify-content: center;
+  
+  
+}
+/*search bar form styles*/
+.searchbar{
+	width: 100%;
+ 	display: flex;
+    flex-wrap: wrap;
+  
+}
+/*search input box styles*/
+.searchname{
+	width: 75%;
+  	border-right: none;
+  	padding: 5px;
+  	height: 20px;
+  	border-radius: 5px 0 0 5px;
+  	outline: none;
+  	color: #FF5B5B;
+  
+}
+
+.searchname:focus{
+
+	font-weight: normal;
+  	color: black;
+
+	
+}
+/*search button styles*/
+.searchbutton{
+	border:none;
+	width: 40px;
+  	height: 36px;
+  	background: #1F2020;
+  	text-align: center;
+  	color: #fff;
+  	border-radius: 0 5px 5px 0;
+  	cursor: pointer;
+  	font-size: 20px;
+  
+}
+
+/*all notice button styles*/
+
+/*??*/
+.all-not-btn-div{
+	padding :50px;
+}
+/*all notice div styles*/
+.allnoticebtnwrap{
+	
+	justify-content: center;
+	margin-top:100px;
+	margin-left: 200px;
+	margin-right:auto;
+}
+/*all notice button styles*/
+.all-not-btn{
+	border:0;
+    
+	background: transparent;
+	color: #fff;
+  	border-radius :50%;
+  	padding : 10px;
+  	margin-top:80px;
+	margin-left:200px;
+  	cursor: pointer;
+  	text-align: center;
+  	font-size:25px;
+  	height:70px; 
+	width:70px;
+}
+.all-not-btn:hover{
+	background-color: #00008b;
+  	color: white;
+  	
+}
+/*insert notice navigation bar styles*/
+.insert-notice-btn{
+		position:absolute;
+		top:90px; 
+		margin-bottom:20px;
+		margin-left:500px;
+		width:200px;
+		height:50px;
+		font-size: 16px;
+  		font-weight: bold;
+		border: 3px solid #FFFFFF;
+		border-radius: 10px;
+		background-color: transparent;
+		transition-duration: 300ms;
+		color:#fff;
+		padding :10px;
+		
+		
+}
+.insert-notice-btn:hover{
+		background-color: #FFFFFF;
+  		color: #000000;
+  		mix-blend-mode: screen;
+}
+/*generate reports navigation bar styles*/
+.gen-rep-form{
+	top:90px; 
+	font-size: 16px;
+  	font-weight: bold;
+	position:absolute; 
+	margin-bottom:20px;
+	margin-left:800px;
+	width:200px;
+	height:50px;
+
+	
+}
+.gen-repbtn{
+	width:200px;
+	height:50px;
+	border-radius: 10px;
+	background-color: transparent;
+	transition-duration: 300ms;
+	color:#fff;
+	font-size: 16px;
+  	font-weight: bold;
+	padding :10px;
+	border: 3px solid #FFFFFF;
+	height:50px;
+	padding :10px;
+	margin-left: 35px;
+	
+}
+.gen-repbtn:hover{
+	background-color: #FFFFFF;
+  	color: #000000;
+  	mix-blend-mode: screen;
+}
+
+/*view notice buttons styles*/
+.all-not-viewbtn{
+	
+	  text-align: center;
+	  width : 100px;
+      border-radius: 20px;
+      border: none;
+      background-color: white;
+      color: #00008B ;
+      transition-duration: 300ms;
+      font-size: 14px;
+}
+.all-not-viewbtn:hover{
+	 background-color: #00008B;
+    color: white;
+}
